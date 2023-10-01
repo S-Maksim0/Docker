@@ -15,4 +15,4 @@ RUN npm install
 EXPOSE 3000
 
 # Запуск приложения при старте контейнера
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
